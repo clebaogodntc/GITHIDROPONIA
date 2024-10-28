@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #006400;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f0fff0;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-image img {
+    width: 25%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.sobre {
+    padding: 50px 20px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.beneficios {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #c8e6c9;
+}
+
+.beneficio {
+    flex: 1 1 250px;
+    margin: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.footer a {
+    color: #b2dfdb;
+    text-decoration: none;
+}
